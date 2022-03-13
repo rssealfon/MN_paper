@@ -1,4 +1,5 @@
 ####Find AUCs for tubulointerstitial data
+###Note: expression data available in GEO, cohort labels available in Table S1
 
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
