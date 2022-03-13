@@ -1,4 +1,5 @@
 #Print median rank importance of each gene across 50 runs of random forest classifier
+###Note: expression data available in GEO, cohort labels available in Table S1
 
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
