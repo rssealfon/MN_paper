@@ -1,4 +1,5 @@
 #Plot ROC curves for high and low-proteinuria subsets of Original cohort
+###Note: expression data available in GEO, cohort labels available in Table S1
 
 import pandas as pd
 from sklearn.model_selection import cross_val_predict
