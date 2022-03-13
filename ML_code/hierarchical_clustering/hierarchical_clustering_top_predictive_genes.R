@@ -1,4 +1,6 @@
 ##Hierarchical clustering plot of 500 genes most predictive of diagnosis
+###Note: expression data available in GEO, cohort labels available in Table S1
+
 library(swamp)
 genes <- read.table("neptune_top_rf_cohort_features_med.txt", header=FALSE)$V1 #top 500 genes in cohort classifier
 a <- read.table("glom_expr_filtered.csv", sep = ",", header=FALSE)
