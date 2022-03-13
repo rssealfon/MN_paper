@@ -1,4 +1,5 @@
 #Plot ROC curves for low-proteinuria subset of Expanded cohort
+###Note: expression data available in GEO, cohort labels available in Table S1
 
 import pandas as pd
 import numpy as np
