@@ -8,7 +8,7 @@ tmp <- str_split(line, ",")
 tmp <- tmp[[1]]
 tmp <- as.double(tmp)
 tmp <- resize(tmp, nrow=500, ncol=177)
-dis <- read.table("/Genomics/ogtr04/sealfon/patient_specific/MN_paper2/210922_RNA_seq_analysis/validation_cohort.txt", sep=",")
+dis <- read.table("validation_cohort.txt", sep=",")
 #tmp <- t(tmp)
 tmp<-as.table(tmp)
 rownames(dis) <- colnames(tmp)
