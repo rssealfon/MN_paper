@@ -1,4 +1,5 @@
 ####Plot ROC curves for disease classifiers.
+###Note: expression data available in GEO, cohort labels available in Table S1
 
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
