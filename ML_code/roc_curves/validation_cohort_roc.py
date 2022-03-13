@@ -1,4 +1,6 @@
 #Plot ROC curves for disease classifiers for validation cohort
+###Note: expression data available in GEO, cohort labels available in Table S1
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import cross_val_predict
