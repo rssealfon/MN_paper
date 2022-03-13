@@ -1,4 +1,5 @@
 ####Find AUCs of top k features sorted by importance
+##Note: expression data available in GEO, cohort labels available in Table S1
 
 from sklearn.ensemble import RandomForestClassifier
 
