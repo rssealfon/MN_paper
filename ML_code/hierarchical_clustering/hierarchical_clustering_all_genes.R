@@ -1,4 +1,6 @@
 ####Hierarchical clustering plot with all genes######
+###Note: expression data available in GEO, cohort labels available in Table S1
+
 library(data.table)
 library(swamp)
 a <- fread("glom_expr_filtered.csv", sep = ",", header=FALSE)
