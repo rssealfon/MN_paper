@@ -1,4 +1,6 @@
 ##Multiclass classifier to identify top 500 genes predictive of diagnosis in validation cohort
+###Note: expression data available in GEO, cohort labels available in Table S1
+
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
